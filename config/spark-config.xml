@@ -1,0 +1,11 @@
+<configuration>
+    <spark>
+        <master>local[*]</master>
+        <executor-memory>2g</executor-memory>
+        <driver-memory>1g</driver-memory>
+        <num-executors>2</num-executors>
+        <executor-cores>1</executor-cores>
+        <spark.sql.shuffle.partitions>200</spark.sql.shuffle.partitions>
+        <spark.default.parallelism>100</spark.default.parallelism>
+    </spark>
+</configuration>

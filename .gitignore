@@ -1,0 +1,16 @@
+# Ignore all CSV files
+*.csv
+
+# Ignore common Python/Jupyter files
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+
+# Ignore Spark temporary directories
+spark-warehouse/
+metastore_db/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
